@@ -1,0 +1,248 @@
+body{
+    background-color: rgb(3, 4, 19);
+    color: white;
+}
+.navbar{
+    background-color: darkgreen;
+    height: 60px;    
+    width: 100%;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+    align-items: center;
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.rightfirst{
+    font-size: 2.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px;
+}
+
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+/*Second Section Begines*/
+
+.second{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.second h2{
+    border: dotted darkgreen 3px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    color: darkgreen;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    
+}
+.skills2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    gap: 10px;
+}
+
+.skills div
+{
+    flex: 1;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: rgb(2, 15, 2);
+    font-family: "DM Serif Text", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.skills2 div
+{
+    flex: 1;
+    border: 1px solid green;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: rgb(2, 15, 2);
+    font-family: "DM Serif Text", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.mainskill{
+    border: 5px solid green;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+
+
+/*Third Section*/
+.third{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.project a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+.third h2{
+    border: dotted darkgreen 3px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    color: darkgreen;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+/*Footer begins*/
+
+/* Connect With me*/
+.lastsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.contact h2{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    color: darkgreen;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.foot
+{
+    display: flex;
+    justify-content: space-between;   
+}
+.footlast
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.footlast img
+{
+    height: 80px;
+    width: 80px;
+}
+#github
+{
+    background-color: rgb(74, 74, 74);
+}
+/*on hover*/
+#github:hover
+{
+    background-color: darkgray;
+}
+#link
+{
+    background-color: rgb(36, 36, 220);
+    
+}
+/*on hover*/
+#link:hover
+{
+    background-color: lightblue;
+}
+#twit
+{
+    background-color: black;
+
+}
+/*on hover*/
+#twit:hover
+{
+    background-color: rgb(26, 25, 25);
+}
+#insta
+{
+    background: #833ab4;
+    background: linear-gradient(
+      to right,
+      #833ab4,#fd1d1d,#fcb045
+    );
+}
+
+/*on hover*/
+#insta:hover
+{
+    background: #833ab4;
+    background: linear-gradient(
+      to right,
+      #622c86,#781212,#c28734
+    );
+}
+.footlast a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.footlast a::after{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+/*Gamil footer*/
+.gmailfoot
+{
+    display: flex;
+    border: 2px solid green;
+    background-color: green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.gmailfoot img {
+    height: 60px;
+    width: 80px;
+}
